@@ -10,11 +10,11 @@ def create_navbar():
                 ),
 
             dbc.NavItem(
-                dbc.NavLink("CSAT Display", active=True, href="/csat", target="_blank")
+                dbc.NavLink("Borden Display", active=True, href="/borden", target="_blank")
                 ),
 
             dbc.NavItem(
-                dbc.NavLink("G2401 Display", active=True, href="/g2401", target="_blank")
+                dbc.NavLink("Egbert Display", active=True, href="/egbert", target="_blank")
                 ),
 
             dbc.NavItem(
@@ -37,8 +37,8 @@ def create_navbar():
                     dbc.DropdownMenuItem("Home", href='/'),
                     dbc.DropdownMenuItem(divider=True),
                     dbc.DropdownMenuItem("Map", href='/map'),
-                    dbc.DropdownMenuItem("CSAT", href='/csat'),
-                    dbc.DropdownMenuItem("G2401", href='/g2401'),
+                    dbc.DropdownMenuItem("Borden", href='/borden'),
+                    dbc.DropdownMenuItem("Egbert", href='/egbert'),
                 ],
             ),
         ],
