@@ -39,7 +39,7 @@ def layout():
                         'display':'inline-block'
                         }
                     ),
-            html.Img(src='assets/borden.png', alt='Borden Plot Capture'),
+            html.Img(src='assets/borden.jpg', alt='Borden Plot Capture'),
                 ]),
         html.Div(className='gap',style={'height':'10px'}),
         html.Div([
@@ -54,7 +54,7 @@ def layout():
                         'display':'inline-block'
                         }
                     ),
-            html.Img(src='assets/egbert.png', alt='Egbert Plot Capture'),
+            html.Img(src='assets/egbert.jpg', alt='Egbert Plot Capture'),
                 ]),
             ])
     return layout

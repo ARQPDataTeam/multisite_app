@@ -43,7 +43,7 @@ sites_df['description'] = sites_df.index + ' ' + sites_df['sitename']
 
 # create the geojson data from the dataframe
 sites_dict = sites_df.to_dict(orient='records')
-print (sites_dict)
+# print (sites_dict)
 sites_geojson = dlx.dicts_to_geojson([{**site, **dict(tooltip=site['description'])} for site in sites_dict])
 # print (sites_geojson)
 
